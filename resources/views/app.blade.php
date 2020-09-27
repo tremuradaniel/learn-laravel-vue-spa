@@ -42,6 +42,15 @@
                                <li class="text-sm leading-loose"><router-link class="text-black" to="/wallpapers">Wallpapers</router-link></li>
                             </ul>
                         </section>
+                        
+                        <section>
+                            <h5 class="uppercase font-bold mb-3">Stats</h5>
+
+                            <ul class="list-reset">
+                               <li class="text-sm leading-loose"><router-link class="text-black" to="/site-stats">Site Stats</router-link></li>
+                            </ul>
+                        </section>
+
                     </aside>
 
                     <div class="primary flex-1">

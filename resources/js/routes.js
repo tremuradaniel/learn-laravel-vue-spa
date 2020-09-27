@@ -7,6 +7,7 @@ import Illustrations from './components/Illustrations';
 import LoadersAndAnimations from './components/LoadersAndAnimations';
 import Wallpapers from './components/Wallpapers';
 import NotFound from './components/NotFound';
+import SiteStats from './components/SiteStats';
 
 export default {
     mode: 'history',
@@ -46,6 +47,10 @@ export default {
         {
             path: '/illustrations',
             component: Illustrations
+        },
+        {
+            path: '/site-stats',
+            component: SiteStats
         },
 
         {
