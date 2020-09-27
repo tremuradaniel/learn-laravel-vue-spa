@@ -24,3 +24,10 @@ Route::get('stats', function () {
         'lessons' => 653
     ];
 });
+
+Route::get('achievements', function () {
+    return [
+        'Best of The Week',
+        'Best of The Day'
+    ];
+})->middleware('auth:api');

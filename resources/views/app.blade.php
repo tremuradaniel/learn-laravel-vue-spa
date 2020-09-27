@@ -48,6 +48,7 @@
 
                             <ul class="list-reset">
                                <li class="text-sm leading-loose"><router-link class="text-black" to="/site-stats">Site Stats</router-link></li>
+                               <li class="text-sm leading-loose"><router-link class="text-black" to="/my-achievements">My Achievements</router-link></li>
                             </ul>
                         </section>
 

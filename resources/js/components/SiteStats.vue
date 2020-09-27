@@ -19,7 +19,7 @@ export default {
     },
     created () {
         axios.get('/api/stats')
-        // deconstructing response in data
+        // destructuring response in data
             .then(({ data }) => {
                 this.series = data.series;
                 this.lessons = data.lessons;

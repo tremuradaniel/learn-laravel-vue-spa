@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/{any?}', function () {
     return view('app');
 })->where('any', '.*');
+
+// Below is unreachable because of the above
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

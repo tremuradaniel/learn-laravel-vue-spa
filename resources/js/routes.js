@@ -8,6 +8,7 @@ import LoadersAndAnimations from './components/LoadersAndAnimations';
 import Wallpapers from './components/Wallpapers';
 import NotFound from './components/NotFound';
 import SiteStats from './components/SiteStats';
+import MyAchievements from './components/MyAchievements';
 
 export default {
     mode: 'history',
@@ -56,6 +57,10 @@ export default {
         {
             path: '/loaders-and-animations',
             component: LoadersAndAnimations
+        }, 
+        {
+            path: '/my-achievements',
+            component: MyAchievements
         },
 
         {
